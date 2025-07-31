@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cabin",Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.main{
+    height:100vh;
+    width:100%;
+    background-color: rgb(226, 223, 223);
+}
+.nav img{
+    height:80px;
+    width:auto;
+    margin:40px;
+}
+.nav {
+    height:110px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.nav-1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-1 ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+.nav-1 ul li{
+    margin:40px;
+    text-transform:uppercase;
+}
+.nav-2 i{
+    margin:20px;
+}
+.content{
+    height:calc(100%-110px);
+    width:100%;
+    position:relative;
+    display:flex;
+    padding-top: 40px;
+}
+.left{
+     height:100%;
+     width:40%;
+     padding:80px 100px;
+}
+.left h5{
+    color: rgb(118, 115, 115);
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.left h1{
+    font-size: 55px;
+    margin-bottom:25px;
+}
+.content p{
+    font-size: 20px;
+    width:80%;
+    margin-bottom:30px;
+}
+.btn{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size:15px;
+    padding: 12px 40px;
+    border:none;
+    border-radius:40px;
+    cursor: pointer;
+}
+.right{
+    height: 100%;
+    width:60%;
+    padding:130px 110px;
+    display: flex;
+    gap:30px;
+    cursor: pointer;
+}
+.product1{
+    height: 280px;
+    width:230px;
+    position: relative;
+    background-color: gray;
+    box-shadow: 0 5px 10px rgb(158, 155, 155);
+    transition: transform 0.3s;
+}
+.right img{
+    height: 100%;
+    width:100%;
+    position:absolute;
+    object-fit: cover;
+    bottom: 30%;
+    border-style: none;
+    
+}
+.product1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.product1 h3{
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    position:absolute;
+    bottom:20%;
+}
+.product1 h4{
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    position:absolute;
+    bottom:13%;
+}
+.product1 h5{
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    position:absolute;
+    bottom:5%;
+}
+.airjordan{
+    height: 100%;
+    width:100%;
+    position: relative;
+    display: flex;
+    background-color: rgb(226, 223, 223);
+    padding:50px;
+}
+.image{
+    height:100%;
+    width:50%;
+    display: flex;
+}
+.image img{
+    height: 700px;
+    width: 640px;
+    padding: 40px;
+    box-shadow: 0 0px 0px rgb(158, 155, 155);
+}
+.desc1{
+    height:100%;
+    width:50%;
+    border-style: none;
+    border-radius: 10%;
+    padding: 10px 60px;
+    justify-content: center;
+    align-items: center;
+}
+.desc1 p{
+    padding-top:10px ;
+    font-size: 25px;
+}
+.points1{
+    padding-top:30px ;
+    font-size:15px;
+}
+.btn1{
+    background-color: rgb(171, 168, 168);
+    color: rgb(0, 0, 0);
+    font-size:15px;
+    padding: 12px 40px;
+    border:none;
+    border-radius:40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.more1{
+    display:flex;
+    justify-content: flex-start;
+    padding-top: 10%;
+    gap:40px;
+}
+.more1 img{
+    height:200px;
+    width:170px;
+    box-shadow: 0 5px 10px rgb(158, 155, 155);
+    transition: transform 0.3s;
+}
+.more1 img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.p6000{
+    height: 100%;
+    width:100%;
+    position: relative;
+    display: flex;
+    background-color: rgb(226, 223, 223);
+    padding: 50px;
+}
+.image2{
+    height:100%;
+    width:50%;
+    display: flex;
+}
+.image2 img{
+    height: 700px;
+    width: 640px;
+    padding: 40px;
+    box-shadow: 0 0px 0px rgb(158, 155, 155);
+}
+.desc2{
+    height:100%;
+    width:50%;
+    border-style: none;
+    border-radius: 10%;
+    padding: 10px 60px;
+    justify-content: center;
+    align-items: center;
+}
+.desc2 p{
+    padding-top:10px ;
+    font-size: 25px;
+}
+.points2{
+    padding-top:30px ;
+    font-size:20px;
+}
+.btn2{
+    background-color: rgb(171, 168, 168);
+    color: rgb(0, 0, 0);
+    font-size:15px;
+    padding: 12px 40px;
+    border:none;
+    border-radius:40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.more2{
+    display:flex;
+    justify-content: flex-start;
+    padding-top: 10%;
+    gap:40px;
+}
+.more2 img{
+    height:200px;
+    width:170px;
+    box-shadow: 0 5px 10px rgb(158, 155, 155);
+    transition: transform 0.3s;
+}
+.more2 img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.cmft{
+    height: 100%;
+    width:100%;
+    position: relative;
+    display: flex;
+    background-color: rgb(226, 223, 223);
+    padding: 50px;
+}
